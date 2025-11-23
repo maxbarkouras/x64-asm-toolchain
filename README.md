@@ -1,5 +1,5 @@
 # x64-ASM-Toolchain
-An assembler and disassembler written in x64 assembly for the MIPS ISA (yes its crazy) 
+An assembler and disassembler written in x64 assembly for the MIPS ISA *(yes its crazy)*
 
 **Compilation:**
 - This was written for x64 assembly on ***windows***.
