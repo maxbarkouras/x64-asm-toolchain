@@ -5,8 +5,9 @@ An assembler and disassembler written in x64 assembly for the MIPS ISA (yes its 
 - This was written for x64 assembly on ***windows***.
   - While it can be made to run on linux by replacing all syscalls and simplyfing logic, its current state is windows exclusive.
 - Download NASM for windows.
-- Compile: ```nasm -f win64 mipsAssembler.asm -o mipsAssembler.obj```
-- Link: ```link /entry:_start /subsystem:windows mipsAssembler.obj /nodefaultlib```
+- Compile & Link:
+  - ```nasm -f win64 mipsAssembler.asm -o mipsAssembler.obj```
+  - ```link /entry:_start /subsystem:windows mipsAssembler.obj /nodefaultlib```
 
 **Usage:**
 - For assembler, a MIPS file must be saved as *'assembly.asm'* in the same directory as program execution.
